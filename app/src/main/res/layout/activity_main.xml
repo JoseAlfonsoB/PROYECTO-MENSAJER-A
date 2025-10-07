@@ -8,6 +8,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!-- ToolBar -->
     <RelativeLayout
         android:id="@+id/toolbarRL"
         android:layout_width="match_parent"
@@ -30,9 +31,17 @@
 
     </RelativeLayout>
 
+    <FrameLayout
+        android:id="@+id/fragmentoFL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/view"
+        android:layout_below="@+id/toolbarRL"
+        />
     <View
         android:id="@+id/view"
         android:layout_width="wrap_content"
+        android:layout_above="@+id/bottomNV"
         android:layout_height="1dp"
         android:background="#ccc"/>
 
