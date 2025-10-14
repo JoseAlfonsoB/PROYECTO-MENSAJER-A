@@ -7,6 +7,9 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.tesji.proyecto_mesajeria.Fragments.FragmentChats
+import com.tesji.proyecto_mesajeria.Fragments.FragmentPerfil
+import com.tesji.proyecto_mesajeria.Fragments.FragmentUsuarios
 import com.tesji.proyecto_mesajeria.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -18,15 +21,19 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        verFragmentProfile()
         binding.bottomNV.setOnItemSelectedListener { item->
             when(item.itemId){
                 R.id.item_perfil->{
+                    verFragmentProfile()
                     true
                 }
                 R.id.item_usuarios->{
+                    verFragmentUsers()
                     true
                 }
                 R.id.item_chats->{
+                    verFragmentChats()
                     true
                 }
                 else -> {
@@ -34,7 +41,33 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         }
+    }
 
-            // MINUTO DEL VÍDEO 9:00
+    private fun verFragmentProfile(){
+        binding.tvTitulo.text = "Perfil"
+
+        val fragment = FragmentPerfil()
+        val fragmentTransaction = supportFragmentManager.beginTransaction()
+        fragmentTransaction.replace(binding.fragmentoFL.id, fragment, "Fragment Perfil")
+        fragmentTransaction.commit()
+    }
+
+    private fun verFragmentUsers(){
+        binding.tvTitulo.text = "Usuarios"
+
+        val fragment = FragmentUsuarios()
+        val fragmentTransaction = supportFragmentManager.beginTransaction()
+        fragmentTransaction.replace(binding.fragmentoFL.id, fragment, "Fragment Usuarios")
+        fragmentTransaction.commit()
+
+    }
+
+    private fun verFragmentChats(){
+        binding.tvTitulo.text = "Chats"
+
+        val fragment = FragmentChats()
+        val fragmentTransaction = supportFragmentManager.beginTransaction()
+        fragmentTransaction.replace(binding.fragmentoFL.id, fragment, "Fragment Chats")
+        fragmentTransaction.commit()
     }
 }
