@@ -36,5 +36,10 @@ class MainActivity : AppCompatActivity() {
         }
 
             // MINUTO DEL VÍDEO 9:00
+<<<<<<< HEAD
+=======
+            // Prueba Ramas Push
+        }
+>>>>>>> 4f7d1a37bf69130aa69547a91b87d4c3e27208a8
     }
 }
