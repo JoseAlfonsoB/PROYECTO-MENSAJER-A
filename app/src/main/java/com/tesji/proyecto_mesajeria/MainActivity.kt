@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
             insets
 
             // MINUTO DEL VÍDEO 9:00
-            // Prueba Ramas
+            // Prueba
         }
     }
 }
