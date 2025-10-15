@@ -4,4 +4,10 @@
     <string name="item_usuarios">Usuarios</string>
     <string name="item_chats">Chats</string>
     <string name="tv_Titulo">Titulo</string>
+
+    <string name="optionEmail">Continuar con Email</string>
+    <string name="optionGoogle">Continuar con Google</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
