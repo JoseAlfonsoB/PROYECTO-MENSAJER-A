@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "502468992593",
-    "project_id": "chat-kotlin-489fe",
-    "storage_bucket": "chat-kotlin-489fe.firebasestorage.app"
+    "project_number": "1043531134173",
+    "project_id": "chat---kotlin-37095",
+    "storage_bucket": "chat---kotlin-37095.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:502468992593:android:c26c765f6979de66642270",
+        "mobilesdk_app_id": "1:1043531134173:android:2da7e6772da9c25576d734",
         "android_client_info": {
           "package_name": "com.tesji.proyecto_mesajeria"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyD1WkW44WzmKQTaDDMlYNsprDbnnwRij0c"
+          "current_key": "AIzaSyBFtV0A03_D1sV98U4J7Og2mj0ysZSm_VI"
         }
       ],
       "services": {
