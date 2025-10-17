@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">PROYECTO-MESAJERIA</string>
+    <string name="default_web_client_id">1043531134173-cr5mk0gqv4h6e29d6ef3oedjjac31eid.apps.googleusercontent.com</string>
+
     <string name="item_perfil">Perfil</string>
     <string name="item_usuarios">Usuarios</string>
     <string name="item_chats">Chats</string>
@@ -19,6 +21,8 @@
     <string name="et_names">Nombres</string>
     <string name="et_R_Password">Repita la contraseña</string>
     <string name="btn_Register">Registrar</string>
+
+    <string name="btn_Cerrarsesion">Cerrar sesion</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
