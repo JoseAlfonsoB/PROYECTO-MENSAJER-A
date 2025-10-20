@@ -80,4 +80,6 @@ class MainActivity : AppCompatActivity() {
         fragmentTransaction.replace(binding.fragmentoFL.id, fragment, "Fragment Chats")
         fragmentTransaction.commit()
     }
+
+    // Cambios
 }
